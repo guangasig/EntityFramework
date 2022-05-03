@@ -12,7 +12,7 @@ namespace LeerData
         {
             optionsBuilder.UseSqlServer(connectionString);
         }
-        
+        //Modelo de datos
         public DbSet<Usuario> Usuario{get;set;}
     }
 }
